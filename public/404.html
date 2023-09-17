@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Not Found</title>
+
+    <style media="screen">
+      :root {
+  --pink: #f14e95;
+  --bg: #0a0a0a;
+  --green: #85A188;
+  --bg2: #a9b1a3;
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: 'Work Sans', sans-serif;
+  min-height: 4000px;
+  background-color: #fff;  
+}
+/*Header*/
+.home h2,
+.info h2,
+.gallery h2,
+.rsvp h2 {
+  color: white;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+.info h2,
+.gift h2,
+.ucapan h2{
+  color: var(--green);
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 5rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/*HERO-SECTION*/
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/bg-hero.png);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+  .hero {
+    position: relative;
+    min-height: 100vh;
+  }
+
+        .hero h1,
+        .hero h4 {
+          color: var(--green);
+        }
+
+        .hero h1 {
+          font-family: 'Great Vibes', cursive;
+          font-size: 4.5rem;
+          margin-top: -80px;
+        }
+
+        .hero h4 {
+          font-family: 'Buda';
+          font-size: 1.4rem;
+          margin-bottom: 15px;
+        }
+
+        .hero a {
+          font-weight: bold;
+          font-family: 'Buda';
+          color: var(--green);
+          background-color: white;
+          box-shadow: var(--shadow);
+        }
+
+        .hero a:hover {
+          background-color: var(--green);
+          color: white;
+        }
+
+        .img-container {
+          text-align: center;
+         
+        }
+
+        .img-container img {
+          max-width: 100%;
+          max-height: 80%;
+          border: 10px solid #fff;
+          height: auto;
+          width: auto;
+          margin: 0 auto;
+          border-radius: 30% 0% 30% 0%;
+        }
+
+/*LANDING-SECTION*/
+.landing{
+  background-image: url(img/bg1.png);
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+  
+}
+      .landing h1,
+      .landing h4,
+      .landing p {
+        color: var(--green);
+      }
+
+      .landing h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 4.5rem;
+        
+      }
+
+      .landing h4 {
+        font-family: 'Buda';
+        font-size: 1.9rem;
+        margin-top: -20px;
+      }
+
+      .landing p {
+        font-family: 'Buda';
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+      }
+
+      .landing .tanggal{
+        font-family: 'Advent Pro';
+        font-size: 1.6rem;
+        letter-spacing: .9rem;
+      }
+
+/* INTRO-SECTION */
+.intro{
+  background-color: #fff;
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: -3rem;
+  padding-bottom: 5rem;
+  margin-bottom: 6rem;
+  
+}
+      .intro h1,
+      .intro h4{
+        color: var(--green);
+      }
+
+      .intro h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 4.5rem;
+        margin-bottom: -30px;
+      }
+
+      .intro h4 {
+        font-family: 'Buda';
+        font-size: 1.6rem;
+        padding-top: 1rem;
+        margin-bottom: 20px;
+      }
+
+      .img-container .img-atas{
+        max-width: 100%;
+        max-height: 50vh;
+        height: auto;
+        width: auto;
+        margin: 0 auto;
+        border-radius: 25% 25% 25% 0%;
+
+      }
+      .img-container .img-bawah{
+        max-width: 100%;
+        max-height: 50vh;
+        height: auto;
+        width: auto;
+        margin: 0 auto;
+        border-radius: 25% 25% 25% 0%;
+        margin-bottom: -100px;
+
+      }
+      .img-container .img-1{
+        max-width: 100%;
+        max-height: 50vh;
+        height: auto;
+        width: auto;
+        margin: 0 auto;
+        border-radius: 25% 25% 25% 0%;
+        margin-top: 0vh;
+        margin-bottom: 10px;
+
+      }
+
+/* HOME-SECTION */
+.home {
+  background-color: var(--bg2);
+  background-size: cover;
+  min-height: 100vh;
+}
+        .home h3 {
+          color: white;
+          font-size: 1.5rem;
+          font-family: 'Arial';
+          padding: 5px;
+        }
+
+        .home p {
+          font-family: 'Arial';
+          font-size: 1.4rem;
+          color: white;
+        }
+        .home .attention {
+          padding: 10px;
+          font-family: 'Buda';
+          font-size: 1.6rem;
+          color: white;
+        }
+
+        .home .couple {
+          margin-bottom: 60px;
+          border: 3px solid #fff;
+          border-radius: 10px;
+          padding: 10px;  
+        }
+        
+        .home .couple h1{
+          font-family: 'greek-ext';
+          font-size: 5rem;
+          color: white  ;
+        }
+        .home .couple h3 {
+          font-family: 'Buda';
+          font-size: 3rem;
+          color: white  ;
+          
+        }
+
+        .couple2 {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .home .img-container {
+          text-align: center;
+        }
+
+        .home .img-container img {
+          max-width: 100%;
+          max-height: 20vh;
+          height: auto;
+          width: auto;
+          margin: 0 auto;
+          border-radius: 50% 50% 50% 50%;
+        }
+        .home-container {
+          position: relative;
+        }
+
+        .home-container img {
+          width: 170px; /* Sesuaikan dengan lebar gambar Anda */
+          height: 170px; /* Sesuaikan dengan tinggi gambar Anda */
+          object-fit: cover;
+        }
+
+        #gambar1 {
+          z-index: 1;
+          border-radius: 50% 50% 50% 0px;
+        }
+
+        .home-container img:nth-child(2) {
+            z-index: 2;
+            width: 55%;
+            height: auto;
+            position: absolute; /* Mengatur gambar kedua sebagai posisi absolut */
+            bottom: -10px;
+            left: -35px; /* Menempatkan gambar kedua di bagian kiri kontainer */
+        }
+
+/*INFO-SECTION*/
+.info {
+  background-image: url(img/bg-hero.png);
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+      .info .alamat {
+        font-size: 1.6rem;
+        font-family: 'Buda', sans-serif;
+        font-weight: bold;
+      }
+
+      .info .description {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+
+      .info .card {
+        background-color: var(--bg2) !important;
+        border: 1px solid #999;
+        color: #fff !important;
+      }
+
+      .info .card-header {
+        color: #fff;
+        border-bottom: 1px solid #ffffff;
+        font-size: 2rem;
+        letter-spacing: .5rem;
+        font-family: 'Great Vibes';
+        padding: 10px;
+        font-weight: bold;
+        
+      }
+
+      .info .card-body {
+        font-size: 1rem;
+      }
+      .info .image-container img{
+        border: 10px solid #fff ;
+      }
+
+      .info .card-footer {
+        border-top: 1px solid #999;
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 20px;
+      }
+      .info h3{
+        font-family: 'Great Vibes';
+        font-size: 3rem;
+      }
+
+      .info a {
+        
+        font-family: 'Buda';
+        background-color: var(--green);
+        color: white;
+        box-shadow: var(--shadow);
+      }
+      .info h4{
+        color: #fff;
+      }
+
+      .info a:hover {
+        color: var(--green);
+        background-color: white;
+        
+      }
+
+/* RSVP-SECTION */
+.rsvp {
+  background-color: var(--bg2);
+}
+
+      .rsvp p {
+        color: white;
+        margin-top: -.5rem;
+        font-size: 1.5rem;
+        font-family: 'Buda';
+      }
+
+      .rsvp form label {
+        color: white;
+      }
+
+      .rsvp button {
+        margin-top: -4px;
+        background-color: var(--bg);
+        color: white;
+        border: 1px solid var(--blue);
+        text-align: center;
+      }
+
+      .rsvp button:hover {
+        background-color: white;
+        color: var(--pink);
+        border: 1px solid white;
+      }
+      .rsvp .rsvp-card {
+        background-color: var(--bg2) !important;
+        border: 1px solid #eee;
+        color: #fff !important;
+        
+        border-radius: 10px;
+      }
+
+      .rsvp .rsvp-card-body {
+        font-size: 1rem;
+        padding: .5rem 3rem;
+      }
+
+
+/* GIFT-SECTION */
+.gift{
+  background-color: #fff;
+  min-height: 50vh;
+  padding-top: 5rem;
+  margin-bottom: 5rem
+}
+      .gift .description{
+        color: var(--bg2);
+      }
+
+      .gift .card{
+        background-color: var(--bg2);
+        padding: 1rem 4rem 4rem 4rem;
+        margin: 0px 50px 0px 50px;
+        border-radius: 10px;
+      }
+      .gift a {
+        font-weight: bold;
+        font-family: 'Buda';
+        color: var(--green);
+        background-color: white;
+        box-shadow: var(--shadow);
+      }
+      .gift p{
+        margin-top: 5px;
+        color: #fff;
+        font-family: 'Buda';
+      }
+
+      .gift a:hover {
+        background-color: var(--green);
+        color: white;
+      }
+
+
+/* GALERI-SECTION*/
+.gallery {
+  padding-bottom: 2rem;
+}
+
+          .gallery span {
+            text-transform: uppercase;
+            color: #666;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 1rem;
+          }
+
+          .gallery p {
+            font-size: 1rem;
+            font-weight: 300;
+            color: #fff;
+          }
+
+          .gallery {
+            background-color: var(--bg2);
+          }
+
+
+/* END-SECTION */
+.end{
+  background-image: url(img/bg-5.png);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+      .end h1,p,h4 {
+        color: var(--green);
+      }
+
+      .end h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 4.5rem;
+        
+      }
+      .end h4 {
+        font-size: 2rem;
+        
+      }
+      .end p {
+        font-family: 'Advent Pro';
+        font-size: 1.7rem;
+        letter-spacing: .5rem;
+        margin-bottom: 30px;
+      }
+
+/* BUTTON MUSIK */
+.btn-music {
+  bottom: 9vh;
+  right: 2vh;
+  z-index: 1055;
+  padding: 2rem;
+}
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  color: white;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* END BUTON MUSIK */
+
+
+
+
+
+
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 70px;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+  .hero .image-container img{
+    width: 80%;
+    height: auto;
+  }
+  .simply-countdown > .simply-section {
+    padding: 60px;
+    margin: 5px;
+  }
+}
+
+/* mobile phone */
+@media (max-width: 540px) {
+  html {
+    font-size: 60%;
+  }
+  .image-container img{
+    max-width: 100%;
+    max-height: 50%;
+  }
+  .image-container .img-intro{
+    max-width: 100%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 35px;
+    margin: 3px;
+  }
+  
+  .gallery .col2{
+    max-width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+  .gallery img:hover{
+    filter: drop-shadow();
+  }
+  .rsvp p {
+    margin-top: -1rem;
+    font-size: 1.5rem;
+  }
+
+  .rsvp form label {
+    color: white;
+    padding: 0 2rem;
+    font-size: 1.4rem;
+  }
+  .rsvp form-control{
+    padding: 0rem 10%;
+    font-size: 1.5rem;
+  }
+  
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h2>404</h2>
+      <h1>Page Not Found</h1>
+      <p>The specified file was not found on this website. Please check the URL for mistakes and try again.</p>
+      <h3>Why am I seeing this?</h3>
+      <p>This page was generated by the Firebase Command-Line Interface. To modify it, edit the <code>404.html</code> file in your project's configured <code>public</code> directory.</p>
+    </div>
+  </body>
+</html>

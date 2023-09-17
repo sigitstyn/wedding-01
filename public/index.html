@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Teguh & Dian Wedding</title>
+
+  <!-- ICON -->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Meow+Script&family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font -->
+  <link rel="stylesheet" href="font/google-font.css">
+
+  <!-- simplyCountdown -->
+  <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+  <script src="countdown/simplyCountdown.min.js"></script>
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="./js/app.js"></script>
+  <link rel="stylesheet" href="./css/app.css">
+  
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+    
+</head>
+
+<body>
+  <!-- HERO -->
+  <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center  hide-navbar" data-aos="zoom-in">
+    <main>
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center mt-5" >
+        <div class="img-container mt-3 " data-aos="zoom-in">
+            <img src="img/foto/hero.JPG" class="img img-fluid">
+        </div>
+      </div>
+      <h1>Teguh & Dian</h1>
+      <h4>Kepada Bapak/Ibu/Saudara/i,<br>
+        <span style="font-weight: bolder; font-size: 2rem;"></span>
+      </h4>
+      <a href="#landing" onClick="enableScroll()" class="btn btn-lg mt-4">Lihat Undangan</a>
+       
+    </main>
+   
+  </section>
+ 
+  <!-- LANDING -->
+  <section id="landing" class="landing w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center" data-aos="zoom-in">
+    <div class="container">
+      
+      <h4 data-aos="zoom-in" data-aos-duration="1000ms">The Wedding Of</h4>
+      <h1 data-aos="zoom-in" data-aos-duration="2000ms">Teguh & Dian</h1>
+      <p data-aos="zoom-in" data-aos-duration="3000ms">Akan melangsungkan resepsi pernikahan pada:</p>
+      
+      <p class="tanggal" data-aos="zoom-in" data-aos-duration="4000">08 10 2023</p>
+      <div class="simply-countdown" data-aos="zoom-in" data-aos-duration="5000"></div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section id="intro" class="intro text-center d-flex justify-content-center align-items-center" data-aos="zoom-in">
+    <div class="container">
+      <button type="button" id="tombol-musik" style="display: none;" class="btn btn-light btn-sm rounded-circle btn-music" onclick="play(this)" data-status="true" data-url="./musik/Hero.mp3">
+        <i class="fa-solid fa-circle-pause"></i>
+      </button>
+      
+      <div class="img-container " data-aos="zoom-in-up" >
+        <img src="img/atas.png" class="img-atas">
+      </div>
+      <div class="img-container mt-3" data-aos="zoom-in-up" >
+        <img src="./img/gallery/2.jpg" class="img-1" style="margin-top: 3rem;">
+      </div>
+        <h4 data-aos="zoom-in-up" data-aos-duration="5000" style="padding: 1rem 2rem; font-size: 1.8rem;">
+              " Dan di antara tanda-tanda kekuasaan-Nya ialah Dia
+          menciptakan untukmu isteri-isteri dari jenismu sendiri,
+          supaya kamu cenderung dan merasa tenteram kepadanya,
+          dan dijadikan-nya diantaramu rasa kasih dan sayang.
+          Sesungguhnya pada yang demikian itu benar-benar
+          terdapat tanda-tanda bagi kaum yang berfikir. "
+        </h4>
+        <h1 data-aos="zoom-in-up" data-aos-duration="6000">
+           Ar-Rum Ayat 21
+        </h1>
+        <div class="img-container mt-3" data-aos="zoom-in-up">
+          <img src="img/bawah.png" class="img-bawah">
+        </div>
+      </div>
+
+  </section>
+
+  <!-- HOME -->
+  <section id="home" class="home" data-aos="zoom-in">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1" d="M0,192L40,181.3C80,171,160,149,240,149.3C320,149,400,171,480,165.3C560,160,640,128,720,128C800,128,880,160,960,186.7C1040,213,1120,235,1200,218.7C1280,203,1360,149,1400,122.7L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+      </path>
+      </svg>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <h2  data-aos="zoom-in-down" data-aos-duration="5000">Acara Pernikahan</h2>
+          <h3  data-aos="zoom-in-up" data-aos-duration="5000">Diselenggarakan pada 08 Oktober 2023 di Semarang, Jawa Tengah.</h3>
+          <p class="attention" data-aos="zoom-in-up">Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir
+            pada acara resepsi pernikahan kami. </p>
+        </div>
+      </div>
+
+      <div class="couple" data-aos="zoom-in-up" data-aos-duration="2000">
+        <div class="couple2">
+          <div class="home-container justify-content-center" data-aos="zoom-in-up" >
+            <img src="img/teguh.png" alt="Dian" id="gambar1" class="mb-2 d-flex">
+            <img src="img/bunga2.png">
+          </div>
+        </div>      
+            <div class="text-center" data-aos="zoom-in" data-aos="zoom-in-up" >
+              <h3>Kurniawan Teguh Prasetyo</h3>
+              
+              <p>Putra dari Bpk. Suyatno & Ibu Sutinem</p>
+            </div>
+            <h1 class="text-center" data-aos="zoom-in" data-aos-duration="5000">&</h1 >
+
+            <div class="couple2">
+              <div class="home-container justify-content-center" data-aos="zoom-in-up" >
+                <img src="img/dian.png" alt="Dian" id="gambar1" class="mb-2 d-flex">
+                <img src="img/bunga2.png">
+              </div>
+            </div>
+            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+              <h3>Dian Muji Rahayu </h3>
+              
+              <p>Putri dari Bpk. Nur Cholik & Ibu Ngapiyah</p>
+            </div>
+          
+          
+        
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1" d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,165.3C672,160,768,96,864,96C960,96,1056,160,1152,154.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+      </svg>
+    
+  </section>
+
+  <!-- INFO -->
+  <section id="info" class="info" data-aos="zoom-in">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <div class="col-md-8 col-10 text-center">
+          <h2 data-aos="zoom-in-down">Informasi Acara</h2>
+
+          <div class="row justify-content-center mt-4">
+            <div class="col-md-5 col-10" data-aos="zoom-in-up">
+              <div class="card text-center text-bg-light mb-5">
+                <div class="card-header">
+                  <h3>
+                    Akad Nikah
+                  </h3></div>
+                <div class="card-body">
+                  <div class="image-container justify-content-center" width="220px">
+                   <h4> 
+                      Minggu, 25 Juni 2023
+                   </h4>
+                  <h4>
+                    11.00 WIB
+                  </h4>
+                  <p style="color: #fff; font-size: 1.2rem;">
+                    Jatirejo RT.01/RW.01 Kec. Gunungpati, Semarang
+                  </p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-5 col-10" data-aos="zoom-in-up">
+              <div class="card text-center text-bg-light mb-5">
+                <div class="card-header">
+                  <h3 >Resepsi</h3>
+                </div>
+                <div class="card-body">
+                  <div class="image-container justify-content-center" width="220px">
+                    <h4>Minggu, 08 Oktober 2023
+                    </h4>
+                  <h4>
+                    08.00 WIB - Selesai
+                  </h4>
+                  <p style="color: #fff; font-size: 1.2rem;">Ngrembel RT.04/RW.07 Kec. Gunungpati, Semarang
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3959.4006799567833!2d110.359455!3d-7.079460000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDQnNDYuMSJTIDExMMKwMjEnMzQuMCJF!5e0!3m2!1sid!2sid!4v1694283775685!5m2!1sid!2sid" 
+            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        
+          <a href="https://goo.gl/maps/PH4egNfxDDig7NwNA" target="_blank" class="btn btn-lg  my-3" data-aos="zoom-in">Klik untuk
+            membuka peta</a>
+        </div>
+      </div>
+
+      
+      
+    </div>
+    
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp" class="rsvp" data-aos="zoom-in">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center" data-aos="zoom-in-up">
+          <h2>RSVP</h2>
+          <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai atas kehadiran serta doa restu, kami ucapkan terimakasih</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10" data-aos="zoom-in-up">
+            <div class="rsvp-card text-center text-bg-light mb-5">
+              <div class="rsvp-card-body">
+                <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
+                    action="https://script.google.com/macros/s/AKfycbymhpdetIks4kJaVzDbPDvyo35JxLCdVfcUUyoenNy-qrL9fi7Q0V0cdP2nTapyE9QRxA/exec"
+                    id="my-form">
+                    <div class="col-12">
+                      <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="mb-3">
+                        <label for="jumlah" class="form-label">Jumlah</label>
+                        <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="mb-3">
+                        <label for="status" class="form-label">Konfirmasi</label>
+                        <select name="status" id="status" class="form-select">
+                          <option selected>Pilih salah satu</option>
+                          <option value="Hadir">Hadir</option>
+                          <option value="Tidak Hadir">Tidak Hadir</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-12 text-center" style="margin-top: 25px;">
+                      <button class="btn btn-primary p-2">Kirim</button>
+                    </div>
+                  </form>
+              </div>
+              
+            </div>
+          </div>
+      
+
+    </div>
+  </section>
+
+  <!-- GIFT -->
+  <section id="gift" class="gift" data-aos="zoom-in">
+    <div class="container">
+      <div class="text-center ">
+        <h2 data-aos="zoom-in-down" data-aos-duration="1000">
+          Kirim Hadiah
+        </h2>
+      </div>
+      <div class="text-center" data-aos="zoom-in-down" data-aos-duration="2000">
+        <p class="description " style="font-size: 1.5rem; padding: 0 2rem;">Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat melalui :</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-duration="3000">
+        <div class="justify-content-center d-flex">
+          <img src="img/gift2.png" width="100px" class="mb-3" >
+          
+        </div>
+        
+        <div class="text-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BANK_BRI_logo.svg/2560px-BANK_BRI_logo.svg.png" class="img-fluid rounded" width="150" alt="bri">
+          <p>
+            BRI = 604901028307539
+          <br>
+            Kurniawan Teguh Prasetyo
+          </p>
+          <button class="btn btn-light btn-sm rounded-4" data-nomer="604901028307539" onclick="salin(this)" autofocus>Salin No. Rekening</button>
+        </div>
+      </div>
+      
+      
+    </div>
+    
+      
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery" data-aos="zoom-in">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1" d="M0,192L40,181.3C80,171,160,149,240,149.3C320,149,400,171,480,165.3C560,160,640,128,720,128C800,128,880,160,960,186.7C1040,213,1120,235,1200,218.7C1280,203,1360,149,1400,122.7L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+      </path>
+      </svg>
+      
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center" data-aos="zoom-in" data-aos-duration="1000">
+          <span>Memori Kisah Kami</span>
+          <h2>Galeri Foto</h2>
+        </div>
+      </div>
+
+
+        
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center" data-aos="fade-up" >
+       
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center" >
+       
+          <div class="col2 mt-2" >
+            <a href="img/foto/1.JPG" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+              <img src="img/foto/1.JPG" alt="Teguh & Dian 1" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          
+          <div class="col2 mt-2" >
+            <a href="img/foto/2.JPG " data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+              <img src="img/foto/2.JPG" alt="Teguh & Dian 2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col2 mt-2" >
+            <a href="img/foto/4.JPG" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+              <img src="img/foto/4.JPG" alt="Teguh & Dian 3" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          
+          <div class="col2 mt-2" >
+            <a href="img/foto/3.JPG" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+              <img src="img/foto/3.JPG" alt="Teguh & Dian 4" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+        </div>
+        
+        <div class="col2 mt-2" >
+          <a href="img/gallery/2.jpg" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+            <img src="img/gallery/2.jpg" alt="Teguh & Dian 5" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        
+        <div class="col2 mt-2" >
+          <a href="img/gallery/7.JPG" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+            <img src="img/gallery/7.JPG" alt="Teguh & Dian 6" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+      </div>
+
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center" data-aos="fade-up" >
+       
+        <div class="col mt-2" >
+          <a href="img/gallery/6.JPG" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+            <img src="img/gallery/6.JPG" alt="Teguh & Dian 7" class="img-fluid w-100 rounded">
+          </a>
+        </div>  
+        <div class="col mt-3" >
+          <a href="img/gallery/3.jpg" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+            <img src="img/gallery/3.jpg" alt="Teguh & Dian 8" class="img-fluid w-100 rounded">
+          </a>
+        </div> 
+        <div class="col mt-3" >
+          <a href="img/gallery/8.jpg" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+            <img src="img/gallery/8.jpg" alt="Teguh & Dian 11" class="img-fluid w-100 rounded">
+          </a>
+        </div>  
+      </div>
+
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center" data-aos="fade-up" >
+       
+        <div class="col2 mt-2" >
+          <a href="img/gallery/4.JPG" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+            <img src="img/gallery/4.JPG" alt="Teguh & Dian 9" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        
+        <div class="col2 mt-2" >
+          <a href="img/gallery/5.JPG" data-toggle="lightbox" data-caption="Teguh & Dian" data-gallery="mygallery">
+            <img src="img/gallery/5.JPG" alt="Teguh & Dian 10" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+      </div>
+  </section>
+
+  <!-- OUTRO -->
+  <section id="end" class="end" data-aos="zoom-in" >
+    <div class="container text-center p-3 d-flex justify-content-center align-items-center" >
+      <div class="row justify-content-center" data-aos="fade-up">
+        <h4 class="m-3" data-aos="fade-up">Join Our Wedding</h4>
+        <h1 data-aos="fade-up">Teguh & Dian</h1>
+        <p >08 10 2023</p>
+      </div>
+      
+    </div>
+    
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer font-family: 'Buda';color: var(--bg2); font-size: 1rem;">
+     <p class="text-center" style="display: block;">&copy;Araxia Tech. All Right Reserved.</p>
+  </footer>
+
+  <!-- AUDIO -->
+  <div id="audio-container">
+    <audio id="song" autoplay loop>
+      <source src="./musik/Can.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="audio-icon-wrapper" style="display: none;">
+      <i class="bi bi-disc"></i>
+    </div>
+  </div>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js">
+
+  </script>
+
+  <!-- COUNTDOWN -->
+  <script>
+    simplyCountdown('.simply-countdown', {
+      year: 2023, // required
+      month: 10, // required
+      day: 8, // required
+      hours: 8, // Default is 0 [0-23] integer
+      words: { //words displayed into the countdown
+        days: { singular: 'Hari', plural: 'Hari' },
+        hours: { singular: 'jam', plural: 'Jam' },
+        minutes: { singular: 'menit', plural: 'Menit' },
+        seconds: { singular: 'detik', plural: 'Detik' }
+      },
+    });
+  </script>
+
+  <!-- AOS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  </script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- SCROLL & PLAY MUSIK -->
+  <script>
+    const rootElement = document.querySelector(":root");
+    const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+    const audioIcon = document.querySelector('.audio-icon-wrapper i');
+    const song = document.querySelector('#song');
+    let isPlaying = false;
+
+    function disableScroll() {
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+      window.onscroll = function () {
+        window.scrollTo(scrollTop, scrollLeft);
+      }
+
+      rootElement.style.scrollBehavior = 'auto';
+    }
+
+    function enableScroll() {
+      window.onscroll = function () { }
+      rootElement.style.scrollBehavior = 'smooth';
+      // localStorage.setItem('opened', 'true');
+      playAudio();
+    }
+
+    function playAudio() {
+      song.volume = 0.5;
+      audioIconWrapper.style.display = 'flex';
+      song.play();
+      isPlaying = true;
+    }
+
+    audioIconWrapper.onclick = function () {
+      if (isPlaying) {
+        song.pause();
+        audioIcon.classList.remove('bi-disc');
+        audioIcon.classList.add('bi-pause-circle');
+      } else {
+        song.play();
+        audioIcon.classList.add('bi-disc');
+        audioIcon.classList.remove('bi-pause-circle');
+      }
+
+      isPlaying = !isPlaying;
+    }
+
+    // if (!localStorage.getItem('opened')) {
+    //   disableScroll();
+    // }
+    disableScroll();
+  </script>
+
+  <!-- Kepada  -->
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const nama = urlParams.get('to');
+    const namaContainer = document.querySelector('.hero h4 span');
+    namaContainer.innerText = nama;
+
+    document.querySelector('#nama').value = nama;
+  </script>
+
+  <!-- RSVP -->
+  <script>
+    window.addEventListener("load", function () {
+      const form = document.getElementById('my-form');
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const data = new FormData(form);
+        const action = e.target.action;
+        fetch(action, {
+          method: 'POST',
+          body: data,
+        })
+          .then(() => {
+            alert("Konfirmasi kehadiran berhasil terkirim!");
+          })
+      });
+    });
+
+  </script>
+
+  
+</body>
+
+</html>
